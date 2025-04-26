@@ -48,5 +48,4 @@ Requests targeting paths containing /forbidden return a 403 Forbidden response.
 Files not in the supported MIME types, such as .zip, return a 415 Unsupported Media Type  
 
 ## Author
-HEO Sunghak  
-COMP2322: Computer Networking
+HEO Sunghak
