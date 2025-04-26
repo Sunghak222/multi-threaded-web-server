@@ -23,10 +23,10 @@ This project implements multi-threaded HTTP web server in Python for COMP2322 co
 '''
 Project/ 
 ├── htdocs/ # Directory containing files to test
-    ├── index.html          
-    ├── image.png                   # for testing image file
-    ├── helloworld.html           
-    └── forbidden/forbiddenfile.txt # for testing 403 Forbidden
+│    ├── index.html          
+│    ├── image.png                   # for testing image file
+│    ├── helloworld.html           
+│    └── forbidden/forbiddenfile.txt # for testing 403 Forbidden
 ├── server.py 
 ├── client.py # for testing
 ├── logs.txt  # log file
