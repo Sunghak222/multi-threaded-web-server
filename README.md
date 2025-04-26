@@ -2,8 +2,8 @@
 
 ## Description
 
-COMP2322 Project
-This project implements multi-threaded HTTP web server in Python for COMP2322 course (Computer Networking).
+COMP2322 Project  
+This project implements multi-threaded HTTP web server in Python for COMP2322 course (Computer Networking).  
 
 ## Features
 - Supports GET and HEAD requests
@@ -38,15 +38,15 @@ Project/
 2. Open http://localhost:8000/{filepath} or run python client.py
 
 ## Log Format
-[Time] | IP address | Requested file path | status code
-[YYYY-MM-DD HH:MM:SS] IP requested_path status_code
-Example: [2025-04-21 22:23:10] 127.0.0.1 /index.html 200 OK
+[Time] | IP address | Requested file path | status code  
+[YYYY-MM-DD HH:MM:SS] IP requested_path status_code  
+Example: [2025-04-21 22:23:10] 127.0.0.1 /index.html 200 OK  
 
 ## Notes
-Only files under the htdocs/ directory are served.
-Requests targeting paths containing /forbidden return a 403 Forbidden response.
-Files not in the supported MIME types, such as .zip, return a 415 Unsupported Media Type
+Only files under the htdocs/ directory are served.  
+Requests targeting paths containing /forbidden return a 403 Forbidden response.  
+Files not in the supported MIME types, such as .zip, return a 415 Unsupported Media Type  
 
 ## Author
-HEO Sunghak
+HEO Sunghak  
 COMP2322: Computer Networking
