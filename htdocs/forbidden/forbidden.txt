@@ -1,0 +1,9 @@
+<html>
+<head>
+	<link rel="icon" href="data:,">
+	<title>This is forbidden file</title>
+</head>
+<body>
+	<h1>You shoud not see this page</h1>
+</body>
+</html>
