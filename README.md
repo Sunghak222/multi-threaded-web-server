@@ -20,7 +20,7 @@ This project implements multi-threaded HTTP web server in Python for COMP2322 co
 
 ## Structure
 
-'''
+```
 Project/ 
 ├── htdocs/ # Directory containing files to test
 │    ├── index.html          
@@ -31,7 +31,7 @@ Project/
 ├── client.py # for testing
 ├── logs.txt  # log file
 └── README.md # documentation
-'''
+```
 
 ## How To Run
 1. python server.py
